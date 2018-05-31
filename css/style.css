@@ -1,0 +1,55 @@
+body{
+    background: white;
+    margin: 0 auto;
+}
+.main{
+    width: 1025px;
+    margin: 0 auto;
+}
+header{
+    margin: 0 auto;
+    text-align: center;
+}
+footer{
+    margin: 0 auto;
+    text-align: center;
+}
+.image1{
+    background: url(../img/plate.jpg) no-repeat;
+    height: 493px;
+    margin: 0 auto;
+}
+.textimage1{
+    display: inline-block;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+.trait{
+    border-bottom: 1px solid black;
+}
+.image2{
+    background: url(../img/resto_01.jpg) no-repeat right top;
+    height: 520px;
+}
+.textimage2{
+    display: inline-block;
+    width: 500px;
+}
+.image3{
+    background: url(../img/resto_02.jpg) no-repeat left top;
+    height: 520px;
+}
+.textimage3{
+    display: inline-block;
+    width: 450px;
+    margin-left: 550px;
+}
+.image4{
+    background: url(../img/resto_03.jpg) no-repeat right top;
+    height: 520px;
+}
+.textimage4
+{
+    display: inline-block;
+    width: 450px;
+}
