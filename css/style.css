@@ -1,9 +1,112 @@
 body{
-    background: white;
-    margin: 0 auto;
-}
-header ul li{
-    list-style-type: none;
     display: inline-block;
     margin: 0 auto;
+    width: 100%
+}
+
+
+
+/* le li dans leul dans le header */
+header ul li{
+    list-style-type: none;/* enlever les puces */
+    display: inline-block;/* le li se comporte comme un block et se mets en-ligne  */
+    margin: 0 auto;
+}
+
+
+
+/* le contenu principale */
+.main{
+    width: 54%;/* la largeur du main */
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* LES ELEMENTS DANS LE HEADER */
+header{
+    text-align: center;;
+}
+header h2{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    width: 400px;
+    margin-left: 300px;
+}
+header ul{
+    margin-left: -65px;
+}
+header p{
+    margin-left: -30px;
+}
+div h3{
+    border-bottom: 2px solid black;
+}
+
+/* tous les éléments article  */
+.displayib{
+    float: left;
+    width: 49%;
+    margin-left: 5px;
+}
+.displayib h2{
+    border-bottom: 2px solid black;
+}
+
+
+
+/* LE CONTENU DES TEXTE DANS ARTICLE */
+.text1{
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+.text2{
+    padding-top: 100px;
+}
+.text2 h2,.text2 p{
+    padding-left: 30px;
+}
+
+
+.text3{
+    padding-top: 125px;
+    padding-left: 5px;
+}
+.text3 h2,.text3 p{
+    padding-right: 30px;
+}
+
+
+.text4{
+    padding-top: 150px;
+}
+.text4 h2, .text4 p{
+    padding-left: 30px;
+}
+
+
+.text5{
+    padding-top: 150px;
+}
+.text5 h2,.text5{
+    padding-right: 10px;
+}
+
+/* image du plan et le footer*/
+.image6{
+    background: url(../img/plan.png) no-repeat top;
+    height: 130px;
+}
+.image6 h4{
+    padding-top: 45px;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.clear{
+    clear: both;
 }

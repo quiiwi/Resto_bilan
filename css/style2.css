@@ -1,0 +1,73 @@
+body{
+    background: white;
+}
+/* contenu main */
+.main{
+    width: 1024px;
+    margin: 0 auto;/* centre l'élément principale */
+}
+
+/* les images */
+.img{
+    height: 100%; /* hauteur */
+    width: 50%; /* largeur */
+    display: inline-block; /* block qui se comprte comme un inline */
+    font-size: contain;/* contient les image les images  */
+}
+
+/* les text */
+.text{
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+}
+
+/* article 1 */
+.article1{
+    height: 520px;
+}
+.image1{
+    background:url(../img/plate.jpg);/* une image comme background avec son url */
+    background-repeat: no-repeat; /* pour que l'image ne se répetent pas */
+    background-size: cover;/* étire les images pour qu'il englobent toute la surface*/
+}
+
+/* article 2 */
+.article2{
+    height: 520px;
+}
+.image2{
+    background:url(../img/resto_01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* article 3 */
+.article3{
+    height: 520px;
+}
+.image3{
+    background: url(../img/resto_02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* article 4 */
+.article4{
+    height: 520px;
+}
+.image4{
+    background: url(../img/resto_03.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* article 5 */
+.article5{
+    height: 520px;
+}
+.image5{
+    background: url(../img/resto_04.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
