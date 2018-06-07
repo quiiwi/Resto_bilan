@@ -1,0 +1,91 @@
+/* style pafe restaurant septime city guide quiiwi */
+body{
+    background: lightblue;
+    font-size: 1.2em;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0 auto;
+}
+/* style pour le wrapper */
+#main{
+    background: #fff;
+    width: 1000px;
+    margin: 0 auto;
+}
+/* en tête */
+header{
+    width: 500px;
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* pied de page */
+footer{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.carte{
+    background: url(../img/plan.png) no-repeat;
+    height: 150px;
+    width: 150px;
+    margin-left: 180px;
+}
+.carte h4{
+    padding-top: 40px;
+}
+header h1{
+    text-transform:uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+}
+header h2, footer h2{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section{
+    min-height: 500px;
+}
+
+nav ul{
+    padding-left:0;
+}
+
+/* la navigation */
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* les classes pour faire flotter le contenue */
+.agauche{
+    float: left;
+    width: 500px;
+    max-height: 500px;
+}
+.adroite{
+    float: right;
+    width: 500px;
+    max-height: 500px; 
+}
+.clear{
+    clear: both;
+}
+/* des couleurs */
+.orange{
+    background: lightgreen;
+}
+.bleu{
+    background: lightseagreen;
+}
+.rouge{
+    background:lightcoral;
+}
