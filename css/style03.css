@@ -35,6 +35,15 @@ footer{
 .carte h4{
     padding-top: 40px;
 }
+.lanote{
+    color: #fff;
+    background: black;
+    width: 180px;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
 header h1{
     text-transform:uppercase;
     font-size: 0.8em;
